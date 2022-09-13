@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"; 
+
+import TelaJavaScript from "./componentes/TelaJavaScript";
+import TelaReact from "./componentes/TelaReact";
+import TelaNode from "./componentes/TelaNode";
+
+const MenuNav = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Navigation.Container>
+      <MenuNav.Navigator>
+        <MenuNav.Screen name="Java Script" component={ TelaJavaScript } />
+        <MenuNav.Screen name="React" component={ TelaReact } />
+        <MenuNav.Screen name="Node" component={ TelaNode } />
+      </MenuNav.Navigator>
+    </Navigation.Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+/*
+git add .
+git commit -m ""
+git checkout p
+*/
