@@ -18,8 +18,3 @@ export default function App() {
     </Navigation.Container>
   );
 }
-/*
-git add .
-git commit -m ""
-git checkout p
-*/
