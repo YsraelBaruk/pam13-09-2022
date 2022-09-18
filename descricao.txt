@@ -44,3 +44,4 @@ git checkout projeto02
 
 Acesse a Terceira branch e cria as configurações necessárias para a navegação funcionar como Stack;
 git checkout projeto03
+
