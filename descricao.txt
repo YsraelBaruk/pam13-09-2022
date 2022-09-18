@@ -45,3 +45,18 @@ git checkout projeto02
 Acesse a Terceira branch e cria as configurações necessárias para a navegação funcionar como Stack;
 git checkout projeto03
 
+npx expo install react-native-gesture-handler@~2.5.0 react-native-reanimated@~2.9.1 react-native-safe-area-context@4.3.1 react-native-screens@~3.15.0
+
+npm install react-native-reanimated@2.10.0 - expected version: ~2.9.1
+npm install react-native-safe-area-context@4.3.3 - expected version: 4.3.1
+npm install react-native-screens@3.17.0 - expected version: ~3.15.0 
+
+
+link (https://bobbyhadz.com/blog/react-error-digital-envelope-routines-unsupported#:~:text=To%20solve%20the%20%22error%3A0308010C,nvm%20install%20%2D%2Dlts%20command)
+
+Warning: This command requires version ^2.1.0 of `sharp-cli`.
+Currently installed version: "3.0.0"
+Required version: "^2.1.0"
+You can install it using `npm install -g sharp-cli@^2.1.0`.
+
+For prerequisites, see: https://sharp.dimens.io/en/stable/install/#prerequisites
